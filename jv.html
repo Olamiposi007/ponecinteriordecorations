@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container {
+        width: 400px;
+        height: 400px;
+        position: relative;
+        background: blue;
+        border-radius: 50%;
+}
+        #yes {
+        height: 50px;
+        position: absolute;
+        width: 50px;
+        background-color: red;
+        border-radius: 50%;
+        margin: 15%;
+}
+        #cir {
+        height:50px;
+        position: absolute;
+        width: 50px;
+        background-color:green;
+        border-radius: 50%;
+        margin: 15%;
+}
+    @keyframes example {
+    from {background-color:green;}
+    to {background-color: red;}
+    to {background-color: blue;}
+}
+
+
+    </style>
+</head>
+<body>
+    <p><button onclick="shape()">Click Me</button></p> 
+
+<div>
+    <div id ="container">
+        <div id ="cir"></div>
+    </div>
+</div>
+
+</body>
+<script src="script.js"></script>
+<script src="style.css"></script>
+</html>
